@@ -28,6 +28,7 @@ h1, h2, h3, p {
     margin: 0;
 }
 
+
 /*HEADER*/
 
 header a {
@@ -86,20 +87,20 @@ header a {
     display: block;
     margin-right: 10px;
     width: 16px;
-    height: 12px;
-    background-color: #757575;
+    height: 16px;
+    background-image: url("./images/icon.svg#mail");
 }
 .phone::before {
     content: "";
     display: block;
     margin-right: 10px;
     width: 16px;
-    height: 12px;
-    background-color: #757575;
+    height: 16px;
+    background-image: url("./images/icon.svg#phone");
 }
 .mail:hover::before,
 .phone:hover::before {
-    background-color: var(--hover-focus-color);
+    fill: var(--hover-focus-color);
 }
 .header-contacts:hover{
     color: var(--hover-focus-color);
@@ -202,6 +203,9 @@ footer {
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+}
+.footer-socials-item:nth-child(1) {
+    background-image: url("../images/icon.svg#icon-twitter");
 }
 .footer-socials-item:hover {
     background-color: var(--hover-focus-color);
@@ -373,14 +377,18 @@ footer {
 }
 .socials-item {
     margin: 0 auto;
+    width: 20px;
+    height: 20px;
 }
+
 .socials-item:not(:last-child) {
     margin-right: 10px;
 }
-.socials-svg {
-    width: 44px;
-    height: 44px
+.social-links svg {
+    fill: #212121;
+    
 }
+
 
 /*CLIENTS*/
 
