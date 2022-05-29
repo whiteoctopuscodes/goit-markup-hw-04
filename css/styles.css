@@ -97,7 +97,7 @@ header a {
     color: var(--hover-focus-color);
 }
 .link-svg {
-    color: currentColor;
+    fill: currentColor;
 }
 
 header .container {
