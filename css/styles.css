@@ -437,7 +437,7 @@ footer {
     color: #AFB1B8;
 }
 .partners-svg {
-    color: currentColor;
+    fill: currentColor;
     width: 106px;
     height: 60px;
 }
