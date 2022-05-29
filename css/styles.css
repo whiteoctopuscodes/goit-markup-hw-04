@@ -92,11 +92,12 @@ header a {
     margin-right: 10px;
 }
 
-.header-contacts:hover{
-    color: var(--hover-focus-color);
-}
+.header-contacts:hover,
 .header-contacts:focus{
     color: var(--hover-focus-color);
+}
+.link-svg {
+    color: currentColor;
 }
 
 header .container {
