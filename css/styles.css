@@ -290,13 +290,14 @@ footer {
     width: 70px;
 }
 .advantagelist div{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin-bottom: 30px;
-    content: "";
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
-    padding-top: 25px;
 }
 
 /*OUR WORK*/
